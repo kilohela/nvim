@@ -7,7 +7,7 @@ local function build_cmd()
     else
         local file = vim.fn.expand('%')
         local out = vim.fn.expand('%:r')
-        return 'g++ ' .. file .. ' -o ' .. out, './' .. out
+        return 'c++ ' .. file .. ' -g -fsanitize=address,undefined -o ' .. out, './' .. out
     end
 end
 

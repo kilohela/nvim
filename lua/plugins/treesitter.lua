@@ -23,6 +23,5 @@ require('nvim-treesitter').install({
     'yaml',
     'toml',
 
-    'verilog',
     'systemverilog',
 })
