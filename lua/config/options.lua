@@ -8,3 +8,4 @@ opt.shiftwidth = 4         -- 自动缩进宽度
 opt.expandtab = true       -- 用空格代替制表符
 opt.smartindent = true     -- 智能缩进
 opt.autoindent = true      -- 自动缩进
+opt.clipboard = "unnamedplus" -- 使用系统剪贴板
